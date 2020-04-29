@@ -1,0 +1,191 @@
+
+    
+// start home responsive
+
+// custom for image
+    
+@media (min-width: 1200px) and (max-width: 1350px)
+    .header
+        .layer1
+            left: -220px
+
+@media (min-width: 576px) and (max-width: 767px)
+    .header
+        .layer2
+            transform: scale(0.6) !important
+            transform-origin: right
+
+@media (min-width: 300px) and (max-width: 600px)
+    .contact
+        .layer3
+            transform-origin: bottom right
+            transform: scale(.7)
+
+// end custom for image
+
+
+@media (min-width: 300px) and (max-width: 767px) // small screen responsive
+    // start header
+
+    .header
+        .layer1
+            display: none
+        .layer2
+            transform: scale(0.45)
+            transform-origin: right
+        p
+            width: 100%
+            text-align: center
+            font-size: 25px
+        button
+            margin: 40px auto
+            display: block
+    
+    //end header
+
+    // start services
+
+    .services
+        margin-top: 120px
+        .card-group
+            .card
+                margin-bottom: 15px
+            .top
+                bottom: 0
+
+    // end services
+
+    // start about
+
+    .about
+        text-align: center
+
+    // end about
+
+    // start project
+    
+    .project
+        >img
+            display: none
+        .arrow
+            display: none
+        .hidden
+            display: none
+        .col-md-3
+            height: 330px
+            .image2
+                height: 90%
+        .show
+            display: block !important
+        .owl-carousel
+            display: block
+        .owl-stage
+            width: 100% !important
+            .owl-item
+                float: none
+                width: 100% !important
+
+    // end project
+
+    // start testim
+
+    .testim
+        text-align: center
+        p
+            margin: 10px 0 0
+        span
+            &::after
+                margin: 5px auto 42px
+
+    // end testim
+
+    // start talk
+
+    .talk
+        p
+            width: 100%
+
+    // end talk
+
+    // start contact
+
+    .contact
+        form
+            margin-bottom: 80px
+            input
+                &:not(:last-child)
+                    width: 100%
+
+
+    //end contact
+
+@media (min-width: 768px) and (max-width: 991px) // medium screen responsive
+
+    // start header
+
+    .header
+        .layer1
+            display: none
+        .layer2
+            transform: scale(0.8)
+            transform-origin: right
+        p
+            width: 75%
+
+    //end header
+
+    // start services
+
+    .services
+        margin-top: 160px
+        >.container
+            max-width: 800px
+
+
+    // end services
+
+    // start project
+
+    .project
+        >.container
+            max-width: 100%
+
+    // end project
+
+    // start lets talk
+
+    .talk
+        padding: 16px 0
+
+    // end lets talk
+
+    // start contact
+    
+    .contact
+        form
+            input
+                &:not(:last-child)
+                    width: 100%
+        .lorem
+            width: 100%
+        .address
+            font-size: 14px
+    
+    //end contact
+                    
+        
+@media (min-width: 992px) and (max-width: 1199px) // large screen responsive
+    // start header
+
+    .header
+        .layer1
+            display: none
+
+    //end header
+
+    //start lets 
+        
+    .talk
+        padding: 50px 0
+
+    //end lets talk

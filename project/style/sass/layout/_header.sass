@@ -1,0 +1,62 @@
+.navbar
+  .logo
+    .icon
+      position: relative
+      bottom: 25px
+      left: 10px
+      .logo1
+        position: absolute
+        left: -15px
+        bottom: 4px
+        z-index: -1
+    .navbar-brand
+      h2
+        font-family: 'Baloo Tamma 2', cursive
+        margin-left: 35px
+        span
+          &:first-of-type
+            position: relative
+            top: 12px
+            color: #6c63ff
+        span
+          &:last-of-type
+            font-size: 18px
+  
+  .navbar-nav
+    li
+      a
+        @extend %button
+        margin-right: 15px
+        background-color: #5b5879
+        &::after
+          background-color: #6c63ff
+          width: 0
+          height: 100%
+        &:hover
+          &::after
+            width: 100%  
+        span
+          position: relative
+          z-index: 3
+
+// start responsive
+
+@media (min-width: 300px) and (max-width: 991px)
+  .navbar
+    .navbar-nav
+      li
+        a
+          margin-right: 0
+          text-align: center
+          border-radius: 0 
+          border-bottom: 1px solid #EFEEFF
+          &::after
+            background-color: tranparent 
+            width: 0
+            height: 0
+          &:hover
+            &::after
+              width: 0 
+
+        
+        

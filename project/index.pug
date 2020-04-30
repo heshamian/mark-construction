@@ -1,18 +1,18 @@
 doctype html
 html(lang='en')
     head
-        include pugs/style/head.pug 
+        include pugs/pug-style/head.pug 
         link(rel='stylesheet' href='style/main.css')
     body
         // add navbar
 
-        include pugs/layout/navbar
+        include pugs/pug-layout/navbar
 
         // start header
 
         div(class="header")
-            img(class="layer1" src="img/layer 1.png" alt="layer1")
-            img(class="layer2" src="img/layer 2.png" alt="layer2")
+            img(class="layer1" src="img/layer1.png" alt="layer1")
+            img(class="layer2" src="img/layer2.png" alt="layer2")
             .container
                 p= 'Fastest growing and most admired Commercial Construction & infrastructure company.'
                 button: span Get a Quote
@@ -87,8 +87,8 @@ html(lang='en')
                         div(class="col-sm-12 col-md-6")
                             h3
                                 span
-                                    img(src="img/Polygon 4.png" alt="plygon" class="pol1")
-                                    img(src="img/Polygon 3.png" alt="plygon" class="pol2")
+                                    img(src="img/Polygon4.png" alt="plygon" class="pol1")
+                                    img(src="img/Polygon3.png" alt="plygon" class="pol2")
                                 | 50+ Years Experienced
                             p
                                 | Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna morbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem . Pharetra convallis morbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem morbi Lorem dolor sit amet, consectetur eliturna. Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmorbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem t labore et dolore magna aliqua.
@@ -97,8 +97,8 @@ html(lang='en')
                         div(class="col-sm-12 col-md-6")
                             h3
                                 span
-                                    img(src="img/Polygon 4.png" alt="plygon" class="pol1")
-                                    img(src="img/Polygon 3.png" alt="plygon" class="pol2")
+                                    img(src="img/Polygon4.png" alt="plygon" class="pol1")
+                                    img(src="img/Polygon3.png" alt="plygon" class="pol2")
                                 | Creative and Powerful
                             p
                                 | Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna morbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem . Pharetra convallis morbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem morbi Lorem dolor sit amet, consectetur eliturna. Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmorbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem t labore et dolore magna aliqua.
@@ -107,8 +107,8 @@ html(lang='en')
                         div(class="col-sm-12 col-md-6")
                             h3
                                 span
-                                    img(src="img/Polygon 4.png" alt="plygon" class="pol1")
-                                    img(src="img/Polygon 3.png" alt="plygon" class="pol2")
+                                    img(src="img/Polygon4.png" alt="plygon" class="pol1")
+                                    img(src="img/Polygon3.png" alt="plygon" class="pol2")
                                 | Honest &amp; Dependable
                             p
                                 | Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna morbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem . Pharetra convallis morbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem morbi Lorem dolor sit amet, consectetur eliturna. Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmorbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem t labore et dolore magna aliqua.
@@ -117,8 +117,8 @@ html(lang='en')
                         div(class="col-sm-12 col-md-6")
                             h3
                                 span
-                                    img(src="img/Polygon 4.png" alt="plygon" class="pol1")
-                                    img(src="img/Polygon 3.png" alt="plygon" class="pol2")
+                                    img(src="img/Polygon4.png" alt="plygon" class="pol1")
+                                    img(src="img/Polygon3.png" alt="plygon" class="pol2")
                                 | Financial Consulting
                             p
                                 | Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna morbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem . Pharetra convallis morbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem morbi Lorem dolor sit amet, consectetur eliturna. Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmorbi Lorem ipsum dolor sit amet, consectetur adipiscing eliturna. Lorem t labore et dolore magna aliqua.
@@ -129,7 +129,7 @@ html(lang='en')
         // start project
 
         .project
-            img(src="img/shape 1.png" alt='background')
+            img(src="img/shape1.png" alt='background')
             .container
                 h2 Featured Projects
                 div.arrow
@@ -141,25 +141,25 @@ html(lang='en')
                     div(class="owl-carousel owl-theme")
                         div(class="col-md-3")
                             .image2
-                                img(src="img/build1.png")
+                                img(src="img/build1.png" alt="building")
                         div(class="col-md-3")
                             .image2
-                                img(src="img/build2.png")
+                                img(src="img/build2.png" alt="building")
                         div(class="col-md-3")
                             .image2
-                                img(src="img/build3.png")
+                                img(src="img/build3.png" alt="building")
                         div(class="col-md-3")
                             .image2
-                                img(src="img/build4.png")
+                                img(src="img/build4.png" alt="building")
                         div(class="col-md-3 hidden")
                             .image2
-                                img(src="img/build5.jpg")
+                                img(src="img/build5.jpg" alt="building")
                         div(class="col-md-3 hidden")
                             .image2
-                                img(src="img/build6.jpg")
+                                img(src="img/build6.jpg" alt="building")
                         div(class="col-md-3 hidden")
                             .image2
-                                img(src="img/build7.jpg")
+                                img(src="img/build7.jpg" alt="building")
                 button.show Show More
 
 
@@ -215,8 +215,8 @@ html(lang='en')
                     div(class="col-sm-12 col-md-6")
                         .clogo
                             div.logo
-                                img(class="logo2" src="img/Polygon 1 copy.png" alt="logo2")
-                                img(class="logo1" src="img/Polygon 1.png" alt="logo1")
+                                img(class="logo2" src="img/Polygon1-copy.png" alt="logo2")
+                                img(class="logo1" src="img/Polygon1.png" alt="logo1")
                             h2 
                                 span Mark
                                 br/ Construction
@@ -233,16 +233,16 @@ html(lang='en')
                             <i class="fab fa-pinterest-square fa-2x"></i>
                             <i class="fab fa-google-plus-square fa-2x"></i>
                             <i class="fab fa-instagram fa-2x"></i>
-            img(class="layer3" src="img/layer 10.png" alt="home")
+            img(class="layer3" src="img/layer10.png" alt="home")
 
         // end contact
 
         // start footer
 
-        include pugs/layout/footer
+        include pugs/pug-layout/footer
 
         // end footer
 
 
-        include pugs/style/script.pug
+        include pugs/pug-style/script.pug
 

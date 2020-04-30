@@ -293,4 +293,12 @@
 
     AnimateHight()
 
+    // nice scroll ////////////////////////////////////////////
+
+    $('body').niceScroll({
+        cursorcolor:"#7f79fc",
+        cursorwidth:"11px",
+        cursorborder: "none"
+    })
+
 }());
